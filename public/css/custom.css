@@ -1,0 +1,68 @@
+/*!
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.whole-page-overlay{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100% !important;
+  z-index: 1050;
+  display: none; 
+}
+.whole-page-overlay .center-loader{
+  top: 50%;
+  left: 52%;
+  position: absolute;
+  color: white;
+}
+.part-loader{
+  top: 50%;
+  left: 52%;
+  position: absolute;
+  color: white;
+}
+
+/* Horizontal menu */
+.container{
+  max-width:960px;
+  margin:0 auto;
+  left:50px;
+ }
+ .navecation ul li{
+   list-style:none;
+   float:left;
+   padding-right: 1px;
+ }
+ .navecation ul li a{
+   text-decoration:none;
+   padding:10px 10px;
+   transition: 0.4s;
+ }
+ .navecation ul li a:hover{
+  background-color:#007bff;
+  color:#fff;
+}
+ .current{
+   background-color:#007bff;
+   color:#fff;
+}
+
+/* file input */
+.main-section{
+  margin:0 auto;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #c1c1c1;
+}
+.fileinput-remove,
+.fileinput-upload{
+  display: none;
+}
